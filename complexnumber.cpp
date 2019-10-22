@@ -5,9 +5,9 @@ class A
 int img,rel;
 void get()
 {
-cout<<"Enter imaginary part";
+cout<<"Enter imaginary part"<<endl;
 cin>>img;
-cout<<"Enter real part";
+cout<<"Enter real part"<<endl;
 cin>>rel;
 }
 A operator + (A ob)
@@ -18,7 +18,7 @@ return(obj);
 }
 void dis()
 {
-cout<<rel<<"i"<<img<<endl;
+cout<<rel<<"+i"<<img<<endl;
 }
 };
 void main()
